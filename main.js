@@ -87,3 +87,39 @@ class CD extends Media {
     }
     // Methods get inherited from the parent class
 }
+
+```
+// Testing zone :)
+```
+// Create a book instance
+const historyOfEverything = new Book('Bill Bryson', 'A Short History of Nearly Everything', 544);
+// Test the book instance methods
+historyOfEverything.toggleCheckOutStatus(); // Toggles the checkout status
+console.log(historyOfEverything.isCheckedOut); // Test the checkout status
+historyOfEverything.addRating(4); // Add a rating
+historyOfEverything.addRating(5); // Add a rating
+historyOfEverything.addRating(5); // Add a rating
+console.log(historyOfEverything.getAverageRating()); // Test the average rating
+
+// Create a movie instance
+const speed = new Movie('Jan de Bont', 'Speed', 116);
+// Test the movie instance methods
+speed.toggleCheckOutStatus(); // Toggles the checkout status
+console.log(speed.isCheckedOut); // Test the checkout status
+speed.addRating(1); // Add a rating
+speed.addRating(1); // Add a rating
+speed.addRating(5); // Add a rating
+console.log(speed.getAverageRating()); // Test the average rating
+
+// Create a CD instance
+const masterOfPuppets = new CD('Metallica', 'Master Of Puppets', 8);
+// Test the CD instance methods
+masterOfPuppets.toggleCheckOutStatus(); // Toggles the checkout status
+console.log(masterOfPuppets.isCheckedOut); // Test the checkout status
+masterOfPuppets.addRating(5); // Add a rating
+masterOfPuppets.addRating(5); // Add a rating
+masterOfPuppets.addRating(4); // Add a rating
+console.log(masterOfPuppets.getAverageRating()); // Test the average rating
+
+
+
