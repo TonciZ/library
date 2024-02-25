@@ -16,9 +16,9 @@ Getters:
 - all properties have a getter
 
 Methods: 
-- .getAverageRating()
-- .toggleCheckOutStatus()
-- .addRating()
+- `.getAverageRating()`
+- `.toggleCheckOutStatus()`
+- `.addRating()`
 
 ## Movie
 Properties: 
@@ -32,9 +32,9 @@ Getters:
 - all properties have a getter
 
 Methods: 
-- .getAverageRating()
-- .toggleCheckOutStatus()
-- .addRating()
+- `.getAverageRating()`
+- `.toggleCheckOutStatus()`
+- `.addRating()`
 
 ## CD
 Properties: 
@@ -48,7 +48,6 @@ Getters:
 - all properties have a getter
 
 Methods: 
-- .getAverageRating()
-- .toggleCheckOutStatus()
-- .addRating()
-
+- `.getAverageRating()`
+- `.toggleCheckOutStatus()`
+- `.addRating()`
